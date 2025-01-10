@@ -1,9 +1,9 @@
-# python run.py \
+ python run.py \
 # --true_align data/arenas/arenas_edges-mapping-permutation.txt \
-# --combined_graph data/arenas/arenas_combined_edges.txt \
-# --embmethod xnetMF \
-# --alignmethod REGAL \
-# --refinemethod RefiNA 
+ --combined_graph /content/drive/'My Drive'/Neuro/DATA_combined_edges.txt  \
+ --embmethod xnetMF \
+ --alignmethod REGAL \
+ --refinemethod RefiNA 
 
 # python run.py \
 # --true_align data/arenas/arenas_edges-mapping-permutation.txt \
@@ -20,11 +20,11 @@
 # --alignmethod gwl \
 # --refinemethod RefiNA
 
-python run.py \
---true_align data/Magna/Magna-Magna_edges-mapping-permutation.txt \
---combined_graph data/Magna/Magna-Magna_combined_edges.txt \
---embmethod xnetMF \
---alignmethod LREA \
+#python run.py \
+#--true_align data/Magna/Magna-Magna_edges-mapping-permutation.txt \
+#--combined_graph data/Magna/Magna-Magna_combined_edges.txt \
+#--embmethod xnetMF \
+#--alignmethod LREA \
 # --refinemethod RefiNA \
 # --n-update 1
 
